@@ -4,5 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"vector": "cpp",
+			"stack": "cpp",
+			"string": "cpp",
+			"ostream": "cpp",
+			"array": "cpp"
+		}
+	}
 }
