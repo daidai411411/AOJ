@@ -31,13 +31,13 @@ bool ChMax(T& max, T val) {
 /*----------------------------------------------------------------------------------------------------------------------------*/
 
 template <typename T>
-bool ChMin(T& max, T val) {
-	return (val < max) ? (max = val, true) : false;
+bool ChMin(T& min, T val) {
+	return (val < min) ? (min = val, true) : false;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------*/
 
-class CombMod {
+struct CombMod {
    private:
 	ll m_;
 	vector<ll> fact_, inv_, fact_inv_;
@@ -59,7 +59,7 @@ class CombMod {
 
 /*----------------------------------------------------------------------------------------------------------------------------*/
 
-class UnionFind {
+struct UnionFind {
    private:
 	int n_;
 	int numof_unions_;
